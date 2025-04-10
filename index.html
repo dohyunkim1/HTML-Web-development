@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alice Nkhoma's Webpage</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Internal CSS Styling -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #007BFF;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        form input, form textarea {
+            width: 80%;
+            max-width: 400px;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        form button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        form button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Alice Nkhoma's Webpage</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Home</h2>
+            <img src="image.png" alt="Library at Daystar University">
+            <p>Welcome to my first HTML5 webpage! I created this as part of my web development learning journey. I’m excited to build more beautiful and functional websites as I continue improving my coding skills.</p>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm <strong>Alice Nkhoma</strong>, a 2nd-year Bachelor of Commerce student majoring in Accounting at Daystar University. I’m passionate about finance, data analytics, and software development. My dream is to merge business knowledge with tech to build smarter financial systems.</p>
+        </section>
+    </main>
+
+    <!-- Footer Section with Contact Form -->
+    <footer id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message" rows="4" placeholder="Type your message here..." required></textarea><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+        <p style="margin-top: 20px;">&copy; 2025 Alice Nkhoma. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
